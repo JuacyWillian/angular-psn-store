@@ -11,6 +11,7 @@ import { ColecoesComponent } from './pages/colecoes/colecoes.component';
 import { MeusjogosComponent } from './pages/meusjogos/meusjogos.component';
 import { AjudaComponent } from './pages/ajuda/ajuda.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './pages/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

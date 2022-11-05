@@ -3,9 +3,12 @@
     <img src="assets/img/playstation_store.png" alt="logo" class="logo" />
     <ul>
       <li class="menuitem"><a [routerLink]="['']">Novidades</a></li>
-      <li class="menuitem"><a [routerLink]="['']">Coleções</a></li>
-      <li class="menuitem"><a [routerLink]="['']">Meus Jogos</a></li>
-      <li class="menuitem"><a [routerLink]="['']">Ajuda</a></li>
+      <li class="menuitem"><a [routerLink]="['colecoes']">Coleções</a></li>
+      <li class="menuitem"><a [routerLink]="['meusjogos']">Meus Jogos</a></li>
+      <li class="menuitem"><a [routerLink]="['ajuda']">Ajuda</a></li>
+      <li class="menuitem">
+        <a (click)="doLogout()" *ngIf="isLoggedIn">Logout</a>
+      </li>
     </ul>
   </div>
 </div>
