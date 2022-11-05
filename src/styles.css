@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px auto;
+}
+
+.container-fluid {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px auto;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Call of Duty - Modern Warfare II",
+    "image": "assets/img/callofduttymw2.jpeg",
+    "price": 149.9,
+    "desc": "Play Now"
+  },
+  {
+    "id": 1,
+    "name": "Battlefield 2048",
+    "image": "assets/img/battlefield.jpg",
+    "price": 99.9,
+    "desc": "Play Now"
+  },
+  {
+    "id": 1,
+    "name": "Fortnite",
+    "image": "assets/img/fotnite.webp",
+    "price": 0.0,
+    "desc": "Play Now"
+  }
+]
