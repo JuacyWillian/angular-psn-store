@@ -1,0 +1,16 @@
+<div class="card" *ngIf="game != undefined">
+  <img src="{{ game!.image }}" alt="" />
+  <div class="content">
+    <h3 class="game-title">{{ game!.name }}</h3>
+    <div class="card-body">
+      <p class="card-summary">{{ game!.desc }}</p>
+      <p class="game-price">
+        {{
+          game!.price == 0
+            ? "Free"
+            : (game.price | currency: "BRL":true:"1.2-2")
+        }}
+      </p>
+    </div>
+  </div>
+</div>
