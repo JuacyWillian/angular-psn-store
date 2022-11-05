@@ -1,0 +1,45 @@
+.menubar {
+  /* font-size: 1.4rem; */
+  color: #000;
+  background-color: #fff;
+  font-family: Ubuntu;
+}
+
+/* .container {
+  width: 90vw;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px auto;
+}
+
+.container-fluid {
+  width: 90vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px auto;
+} */
+
+.menubar a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logo {
+  height: 44px;
+  width: auto;
+
+  padding: 5px 15px;
+}
+
+.menuitem {
+  display: inline-block;
+
+  font-size: 1rem;
+  padding: 15px 15px;
+}
