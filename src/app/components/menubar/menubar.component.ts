@@ -17,10 +17,18 @@ export class MenubarComponent implements OnInit {
 
   ngOnInit(): void {
     this.isLoggedIn = this.authService.isLoggedIn;
+    this.authService.onLoginChange.subscribe(
+      (isLoggedIn) => {
+        this.isLoggedIn = isLoggedIn
+        debugger
+      }
+    )
   }
 
   doLogout() {
+    console.log(this.isLoggedIn);
     this.authService.doLogOut();
+    console.log(this.isLoggedIn);
     this.router.navigate(['']);
   }
 }
